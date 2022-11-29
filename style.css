@@ -163,7 +163,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: linear-gradient(to right, #c31432, #240b36);
+  background: linear-gradient(to right, #c31432, #473256);
   right: 10px;
   bottom: 10px;
   text-align: center;
@@ -316,7 +316,7 @@ section .title::after {
 .skills
 {
   box-shadow: rgba(56, 54, 54, 0.2) 0px 0px 8px 0px;
-  background: linear-gradient(to right, #c31432, #240b36);
+  background: linear-gradient(to right, #c31432, #482c5c);
   padding-top: 70px;
 }
 
