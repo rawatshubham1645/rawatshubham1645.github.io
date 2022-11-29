@@ -250,7 +250,7 @@ section .title::after {
   background: none;
 }
 
-/* about section styling */
+/* ---------------------------------------------about section styling -------------------------------------------------------------------------*/
 .about
 {
   padding-top: 70px;
@@ -311,7 +311,7 @@ section .title::after {
 }
 
 
-/* skills section styling */
+/*---------------------------------------------------- skills section styling ----------------------------*/
 
 .skills
 {
@@ -367,7 +367,7 @@ section .title::after {
 
 
 
-/* Proficiencies section start */
+/* --------------------------------------------------Proficiencies section start------------------ */
 .proficiencies
 {
   padding-top: 70px;
@@ -423,7 +423,7 @@ section .title::after {
 
 
 
-/* project section styling */
+/* -------------------------------------project section styling ---------------------------------*/
 
 .project{
   padding-top: 70px;
@@ -514,7 +514,10 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-
+#apple_Img{
+  width: auto;
+  height: auto;
+}
 
 /* Statistics section start */
 
