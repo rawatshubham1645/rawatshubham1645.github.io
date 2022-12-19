@@ -1171,7 +1171,10 @@ footer {
     font-size: 23px;
     line-height: 38px;
   }
-
+  #githubCommits {
+    width: 85%;
+    margin: auto;
+  }
 }
 
 
@@ -1189,7 +1192,10 @@ footer {
     width: 85%;
     margin: auto;
   }
-
+  #githubCommits {
+    width: 85%;
+    margin: auto;
+  }
 }
 
 
@@ -1316,6 +1322,10 @@ footer {
   {
     width: 95%;
     height: 100%;
+  }
+  #githubCommits {
+    width: 95%;
+    margin: auto;
   }
   .scroll-up-btn {
     right:5px;

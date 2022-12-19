@@ -134,8 +134,8 @@ if (screen.width >= 691 && screen.width <= 947) {
 }
 
 //For getting the calendar data
-// GitHubCalendar(".calendar", "rawatshubham1645", { responsive: true ,tooltips: true});
-GitHubCalendar(".calendar", "rawatshubham1645", { responsive: true });
+GitHubCalendar(".calendar", "rawatshubham1645", { responsive: true ,tooltips: true});
+
 
 
 
