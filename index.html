@@ -40,7 +40,7 @@
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <!-- <li><a href="#statistics" class="menu-btn"> Statistics</a></li> -->
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
-                <li><a class="resumeDow" href="./resources/Shubham-Rawat-Resume.pdf" class="menu-btn" class="btn btn-success" download="Shubham-Rawat-Resume">My Resume</a></li>
+                <li><a class="resumeDow" href="./resources/Shubham_Rawat_Resume.pdf" class="menu-btn" class="btn btn-success" download="Shubham-Rawat-Resume" onclick="openResume()">My Resume</a></li>
 
             </ul>
             <div class="menu-btn">
@@ -58,8 +58,8 @@
                     <div class="text-2">Shubham Rawat</div>
                 </a>
                 <div class="text-3">And I'm a passionate <span class="typing"></span></div>
-                <a class="resumeOpen" href="./resources/Shubham-Rawat-Resume.pdf" target="_blank"
-                    download="Shubham-Rawat-Resume">Download Resume⬇️ </a>
+                <a class="resumeOpen" href="./resources/Shubham_Rawat_Resume.pdf" target="_blank"
+                    download="Shubham-Rawat-Resume" onclick="openResume()">Download Resume⬇️ </a>
             </div>
         </div>
     </section>
@@ -80,8 +80,8 @@
                         to becoming a Back-end developer, alongside learning and
                         growing with the Organization.
                     </p>
-                    <a class="resumeOpen" class="btn btn-success" href="./resources/Shubham-Rawat-Resume.pdf"
-                        download="Shubham-Rawat-Resume">GET RESUME</a>
+                    <a class="resumeOpen" class="btn btn-success" href="./resources/Shubham_Rawat_Resume.pdf"
+                        download="Shubham-Rawat-Resume" onclick="openResume()">GET RESUME</a>
                 </div>
             </div>
         </div>
@@ -182,7 +182,46 @@
         <div class="max-width">
             <h2 class="title">Projects</h2>
             <div class="carousel owl-carousel" id="carousel">
-                    <div class="card">
+
+                <div class="card">
+                    <div class="box">
+                        <img src="./resources/GreenHood.jpg" alt="">
+                        <div class="project-ditels">
+                            <h3 class="project-title">Online Plant Nursery Application</h3>
+                            <p>
+                                A Spring Boot REST API web service for an online plant nursery application.
+                            </p>
+                            <h4>Tech-Stack</h4>
+                            <h5>Core Java | SpringBoot | Spring Data JPA | Lombok | Swagger -UI</h5>
+                            
+                            <li>This project is developed by a team of 5 members. </li>
+                            <div class="btn">
+                                <a href="https://drive.google.com/file/d/1i7udUNALG5n7TYoaJrhoiSAljW0eGVqj/view?usp=sharing" target="_blank">VIDEO ↗️</a>
+                                <a href="https://github.com/rawatshubham1645/Online-Plant-Nursery-Rest-API" target="_blank"> GITHUB ↗️</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img id="bank_image" src="./resources/Online Banking.png" alt="">
+                        <div class="project-ditels">
+                            <h3 class="project-title">Online Banking System</h3>
+                            <p>
+                                This console-based JDBC application gives access to all kinds of banking operations.
+                            </p>
+                            <h4>Tech-Stack</h4>
+                            <h5>Core Java | DBMS | JDBC | MySQL</h5>
+                            
+                            <li>This was the Individual project. So, I individually worked on this project </li>
+                            <div class="btn">
+                                <a href="https://drive.google.com/file/d/1qJUXe-hri9ChNGLk1feWDDNsBiSpqhp4/view?usp=sharing" target="_blank">VIDEO ↗️</a>
+                                <a href="https://github.com/rawatshubham1645/Online-Bank-Management-System" target="_blank"> GITHUB ↗️</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="card">
                 <div class="box">
                     
                     <img id="apple_Img" src="./resources/apple.jpg" alt="">
@@ -243,6 +282,7 @@
                 </div>
             </div>
 
+
             </div>
         </div>
     </section>
@@ -272,7 +312,7 @@
                     </div>
 
                     <div class="individualStat">
-                        <div id="contrib-number">10+</div>
+                        <div >400+</div>
                         <div>
                             <h3>Git</h3>Commits
                         </div>
@@ -415,5 +455,7 @@
 </body>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" ></script>
 <script src="script.js" type="module"></script>
-
+<script> function openResume(){
+    window.open("https://drive.google.com/file/d/1CWhTv4WHpR6VR-kqLLb82cjrjmhL1u_w/view?usp=share_link");
+}</script>
 </html>

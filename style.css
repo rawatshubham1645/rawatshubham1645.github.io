@@ -510,7 +510,7 @@ section .title::after {
 }
 .project .carousel .card img {
   width: 100%;
-  border: 2px solid rgb(192, 19, 19);
+  /* border: 2px solid rgb(192, 19, 19); */
   transition: all 0.3s ease;
 }
 
@@ -518,8 +518,11 @@ section .title::after {
   width: auto;
   height: auto;
 }
+#bank_image{
+  width: 160px;
+}
 
-/* Statistics section start */
+/* -----------------------------------------------Statistics section start ------------------------------*/
 
 .statistics
 {
