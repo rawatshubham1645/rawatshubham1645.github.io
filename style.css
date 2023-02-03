@@ -519,7 +519,8 @@ section .title::after {
   height: auto;
 }
 #bank_image{
-  width: 160px;
+  width: 180px;
+  height: auto;
 }
 
 /* -----------------------------------------------Statistics section start ------------------------------*/
