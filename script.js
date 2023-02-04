@@ -315,7 +315,7 @@ project.forEach(function (data) {
 
 
 
-document.querySelector(".resumeDow").addEventListener("click", function()
-{
-  window.open("resources/Gautam_Kumar_Resume.pdf", "_blank");
-});
+// document.querySelector(".resumeDow").addEventListener("click", function()
+// {
+//   window.open("resources/Gautam_Kumar_Resume.pdf", "_blank");
+// });
